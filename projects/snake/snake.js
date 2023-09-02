@@ -1,6 +1,7 @@
 const snakeHeadColor = "greenyellow";
 const snakeBodyColor = "green";
 const foodColor = "red";
+const interval = 90;
 
 // Board Setup
 const blockSize = 25;
@@ -119,4 +120,4 @@ const placeFood = () => {
 placeFood();
 setInterval(() => {
   update();
-}, 38);
+}, interval);
