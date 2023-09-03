@@ -1,6 +1,6 @@
 // Initialize
 // Initialize
-const n = 200;
+const n = 100;
 const rows = n;
 const cols = n;
 const blockSize = Math.min(window.innerWidth, window.innerHeight) / n;
