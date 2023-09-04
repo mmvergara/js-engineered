@@ -3,12 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <title>Document</title>
   </head>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    h1 {
+      padding-top: 40px;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    p {
+      padding-top: 10px;
+      max-width: 800px;
+      text-align: center;
+      opacity: 80%;
+    }
+  </style>
   <body>
-    <a href="/js-engineered/projects/snake/">Snake</a>
-    <a href="/js-engineered/projects/conways-way-of-life/"
-      >conway way of life</a
-    >
+    <h1>JS-Engineered</h1>
+    <p>Mark Matthew Vergara</p>
+    <p>
+      Collection of Pure Javascript / CSS Projects. This is my attempt/practice
+      of trying gain an engineer mindset where i will be the one implementing
+      the logic rather than using readily available frameworks/libraries.
+    </p>
+    <a href="/js-engineered/projects/snake/">Github Repository</a>
+    <div class="flex">
+      <a href="/js-engineered/projects/snake/">Snake</a>
+      <a href="/js-engineered/projects/conways-way-of-life/"
+        >Conway's Game of Life
+      </a>
+    </div>
   </body>
 </html>
