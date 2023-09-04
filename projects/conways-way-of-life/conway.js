@@ -1,6 +1,9 @@
 // Initialize
 // Initialize
-const n = 100;
+let n = 120;
+if(window.innerWidth < 300){
+  n = 50
+}
 const rows = n;
 const cols = n;
 const blockSize = Math.min(window.innerWidth, window.innerHeight) / n;
@@ -69,7 +72,7 @@ render();
 setInterval(() => {
   if (!isLooping) return;
   update();
-}, 16);
+}, 48);
 function update() {
   render();
   evaluateGame();
